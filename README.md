@@ -5,3 +5,5 @@ Docker container with [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) 
 Dependency hell. Seems to work, pull requests welcome!
 
 Proxychains is there so this can be made to work in a cluster without internet access.
+
+The patched ffmpy is there due to a bug that will probably be fixed soon.
