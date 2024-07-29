@@ -6,7 +6,6 @@ ENV TORCH_HOME=/root/.cache/torch
 RUN apt-get update && apt-get install -y --no-install-recommends \
     wget build-essential python3.10 python3-pip python3.10-dev python3-setuptools
 RUN apt install -y proxychains4 git curl telnet wget zip unzip
-RUN pip install --upgrade pip setuptools wheel
 
 # update pip and setuptools
 RUN python3.10 -m pip install --upgrade pip setuptools wheel
